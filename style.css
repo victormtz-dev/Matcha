@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 
@@ -112,7 +113,7 @@
 
 .item-2 > .main > .button-main > button {
     color: white;
-    background-color:#67b54b; ;   
+    background-color:#67b54b ;   
     padding-left: 14px;
     padding-right: 14px;
     padding-top: 12px;
@@ -149,6 +150,57 @@
 
 .item-4 {
     grid-area: seccion3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+.item-4 > h1{
+    text-align: center;
+    font-size: 60px;
+    color: #025157;
+    }
+
+.item-4 > p{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    font-size: 20px;
+    color: #46484c;
+    margin-bottom: 30px;
+    }
+
+
+.item-4 > .conter-target {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+
+.item-4 > .conter-target h3 > a{
+    color: black;
+}
+
+.item-4 > .conter-target h3 > a:hover{
+    color: #67b54b ;
+}
+
+.item-4 > .conter-target h3{
+    margin-top:20px;
+}
+
+.item-4 > .conter-target p{
+    color: #46484c;
+    margin-top:20px;
+}
+
+
+.item-4 > .conter-target > div > img {
+    width: 400px;
+    border: 1px solid #46484c;
 }
 
 .item-5 {
@@ -156,23 +208,29 @@
 }
 .item-6{
     grid-area: seccion5;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+}
+
+.item-6 article {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+}
+
+.item-6 img {
+    width: 641px;
+    height: 297px;
 }
 
 .item-7{
     grid-area: seccion6;
 }
 
-.item-8{
-    grid-area: seccion7;
-}
-
-.item-9 {
-    grid-area: seccion8;
-}
-
-.item-10{
-    grid-area: seccion9;
-}
 
 .item-11{
     grid-area: footer;
@@ -188,11 +246,8 @@
     'seccion4 seccion4 seccion4 seccion4'
     'seccion5 seccion5 seccion5 seccion5'
     'seccion6 seccion6 seccion6 seccion6'
-    'seccion7 seccion7 seccion7 seccion7'
-    'seccion8 seccion8 seccion8 seccion8'
-    'seccion9 seccion9 seccion9 seccion9'
-    'footer footer footer footer'
 
+    'footer footer footer footer'
     ;
     gap: 30px;
     background-color: rgba(23, 116, 122);
@@ -222,7 +277,7 @@
 .grid-container > .item-4 {
     background-color: bisque;
     padding: 20px 0;
-    height: 500px;
+    height: 650px;
 }
 
 .grid-container > .item-5 {
@@ -235,10 +290,8 @@
 
 .grid-container > .item-6 {
     background-color: bisque;
-    text-align: center;
     padding: 20px 0;
-    font-size: 30px;
-    height: 500px;
+    height: 900px;
 }
 
 .grid-container > .item-7 {
@@ -249,29 +302,6 @@
     height: 500px;
 }
 
-.grid-container > .item-8 {
-    background-color: bisque;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    height: 500px;
-}
-
-.grid-container > .item-9 {
-    background-color: bisque;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    height: 500px;
-}
-
-.grid-container > .item-10 {
-    background-color: bisque;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    height: 500px;
-}
 
 .grid-container > .item-11 {
     background-color: bisque;
