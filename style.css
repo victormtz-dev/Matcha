@@ -373,6 +373,8 @@
 }
 
 
+
+
 .grid-container{
     display: grid;
     grid-template-areas: 
@@ -384,7 +386,7 @@
     'footer footer footer footer'
     ;
     gap: 30px;
-    background-color: white
+    background-color: white;
     padding: 10px;
 }
 
@@ -432,9 +434,3 @@
 }
 
 
-@media (max-width: 575px) {
-    .navbar,
-    .actions {
-        display: none;
-    }
-}
