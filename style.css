@@ -203,9 +203,7 @@
     border: 1px solid #46484c;
 }
 
-.item-5 {
-    grid-area: seccion4;
-}
+
 .item-6{
     grid-area: seccion5;
     padding: 5% 10%;
@@ -226,11 +224,6 @@
     width: 641px;
     height: 297px;
 }
-
-.item-7{
-    grid-area: seccion6;
-}
-
 
 .item-11{
     grid-area: footer;
@@ -387,69 +380,53 @@
     'seccion1 seccion1 seccion1 seccion1'
     'seccion2 seccion2 seccion2 seccion2'
     'seccion3 seccion3 seccion3 seccion3'
-    'seccion4 seccion4 seccion4 seccion4'
     'seccion5 seccion5 seccion5 seccion5'
-    'seccion6 seccion6 seccion6 seccion6'
-
     'footer footer footer footer'
     ;
     gap: 30px;
-    background-color: rgba(23, 116, 122);
+    background-color: white
     padding: 10px;
 }
 
 .grid-container > .item-1 {
-    background-color: bisque;
+    background-color: white;
     padding: 20px 0;
     height: 100px;
 }
 
 .grid-container > .item-2 {
     display: flex;
-    background-color: bisque;
+    background-color: white;
     padding: 20px 0;
     height: 500px;
 }
 
 .grid-container > .item-3 {
-    background-color: bisque;
+    background-color: white;
     padding: 20px 0;
     height: 350px;
 }
 
 
 .grid-container > .item-4 {
-    background-color: bisque;
+    background-color:  white;
     padding: 20px 0;
     height: 650px;
 }
 
-.grid-container > .item-5 {
-    background-color: bisque;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    height: 500px;
-}
+
 
 .grid-container > .item-6 {
-    background-color: bisque;
+    background-color:  white;
     padding: 20px 0;
     height: 900px;
 }
 
-.grid-container > .item-7 {
-    background-color: bisque;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    height: 500px;
-}
 
 
 .grid-container > .item-11 {
     display: flex;
-    background-color: bisque;
+    background-color: white;
     padding: 20px 0;
     height: 600px;
 }
