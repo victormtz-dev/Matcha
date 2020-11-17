@@ -391,27 +391,27 @@
 }
 
 .grid-container > .item-1 {
-    background-color: coral;
+    background-color: white;
     padding: 20px 0;
     height: 100px;
 }
 
 .grid-container > .item-2 {
     display: flex;
-    background-color: coral;
+    background-color: white;
     padding: 20px 0;
     height: 500px;
 }
 
 .grid-container > .item-3 {
-    background-color: coral;
+    background-color: white;
     padding: 20px 0;
     height: 350px;
 }
 
 
 .grid-container > .item-4 {
-    background-color:  coral;
+    background-color:  white;
     padding: 20px 0;
     height: 650px;
 }
@@ -419,7 +419,7 @@
 
 
 .grid-container > .item-6 {
-    background-color:  coral;
+    background-color:  white;
     padding: 20px 0;
     height: 900px;
 }
@@ -428,7 +428,7 @@
 
 .grid-container > .item-11 {
     display: flex;
-    background-color: coral;
+    background-color: white;
     padding: 20px 0;
     height: 600px;
 }
