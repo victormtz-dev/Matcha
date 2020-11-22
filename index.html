@@ -14,10 +14,9 @@
   </head>
 
   <body>
-
     <nav
       class="navbar navbar-expand-lg navbar-light"
-      style="background-color:white;  padding-top: 35px; margin: 20px; "
+      style="background-color: white; padding-top: 35px; margin: 20px"
     >
       <a class="navbar-brand" href="#">
         <img
@@ -37,11 +36,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color: #025157;">
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+        style="color: #025157"
+      >
         <ul class="navbar-nav mx-auto">
-
           <li class="nav-item dropdown">
-            <a 
+            <a
               class="nav-link dropdown-toggle"
               href="#"
               id="navbarDropdown"
@@ -49,28 +51,28 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              style="color: #025157; "
-            />
+              style="color: #025157"
+            >
               Products
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: #025157; ">
-              <a class="dropdown-item" href="#" style="color: #025157;">Blog Creator</a>
-              <a class="dropdown-item" href="#" style="color: #025157;">Content Library</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Blog Creator</a>
+              <a class="dropdown-item" href="#">Content Library</a>
             </div>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #025157; ">Templates</a>
+            <a class="nav-link" href="#" style="color: #025157">Templates</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #025157;">Pricing</a>
+            <a class="nav-link" href="#" style="color: #025157">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #025157;">Customers</a>
+            <a class="nav-link" href="#" style="color: #025157">Customers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #025157;" >Blog</a>
+            <a class="nav-link" href="#" style="color: #025157">Blog</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -82,7 +84,7 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              style="color: #025157;"
+              style="color: #025157"
             >
               Resources
             </a>
@@ -94,354 +96,812 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-            <a class="nav-link" href="#" style="color: #025157;">Sign In</a>
-          <button class="btn btn-outline-success btn-gsf my-2 my-sm-0" type="submit" style=" color: white">
-            Get Started Free
+          <a class="nav-link" href="#" style="color: #025157">Sign In</a>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            data-toggle="modal"
+            data-target="#staticBackdrop"
+          >
+            Get started free
           </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-backdrop="static"
+            data-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Sorry!</h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Por el momento seguimos trabajando en esta parte. Pronto
+                  estara completo. Gracias. :)
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Entendido
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </form>
       </div>
     </nav>
-<br>
-<br>
+    <br />
+    <br />
 
-
-
-    <div class="container ">
+    <section class="sec1">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-8" style="border: 1px solid black;">
-              
-             <article class="main">
-                <h1>
-                  Let’s face it.<br />
-                  Your blog stinks.
-                </h1>
+          <div class="col-sm-7">
+            <article class="main">
+              <h1>
+                Let’s face it.<br />
+                Your blog stinks.
+              </h1>
+              <p>
+                <span
+                  >Blog better with the first all-in-one blogging tool for
+                  growing ecommerce <br />
+                  brands. Connect your blog, create and optimize blog posts for
+                  each
+                  <br />
+                  stage of the buyer’s journey, and measure the results.</span
+                >
+              </p>
+              <div class="button-main">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-toggle="modal"
+                  data-target="#staticBackdrop"
+                >
+                  Start free trial
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-backdrop="static"
+                  data-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">
+                          Sorry!
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Por el momento seguimos trabajando en esta parte. Pronto
+                        estara completo. Gracias. :)
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-dismiss="modal"
+                        >
+                          Cerrar
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Entendido
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <img
+                  src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/shopify-stars.svg"
+                  alt="Shopify"
+                />
+              </div>
+              <div class="text">
                 <p>
-                  <span
-                    >Blog better with the first all-in-one blogging tool for growing
-                    ecommerce <br />
-                    brands. Connect your blog, create and optimize blog posts for each
-                    <br />
-                    stage of the buyer’s journey, and measure the results.</span
-                  >
+                  Blog better today with a <strong>free 7-day trial.</strong
+                  ><br />
+                  <strong>No credit card</strong> required.
                 </p>
-                <div class="button-main">
-                  <button type="button" class="btn btn-success">Star free trial</button>
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/shopify-stars.svg"
-                    alt="Shopify"
-                  />
-                </div>
-                <div class="text">
-                  <p>
-                    Blog better today with a <strong>free 7-day trial.</strong><br />
-                    <strong>No credit card</strong> required.
-                  </p>
-                </div>
-              </article>  
+              </div>
+            </article>
           </div>
 
-          <div class="col-sm " style="border: 1px solid black; text-align: right;">
-            Video
+          <div class="col-sm">
+            <article class="video-x" style="padding-top: 35px">
+              <video
+                controls
+                poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+              >
+                <source
+                  type="video/webm"
+                  src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+                />
+                <source
+                  type="video/mp4"
+                  src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                />
+              </video>
+              <img
+                src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
+                alt="See how it works"
+              />
+            </article>
           </div>
         </div>
       </div>
-   
-      <br>
-      <br>
 
+      <br />
+      <br />
+    </section>
+    <section>
+      <div class="container">
+        <div class="row" style="text-align: center">
+          <div class="col-sm">
+            <p id="text-img">TRUSTED BY GROWING ECOMMERCE BRANDS</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm" style="padding-top: 15px">
+            <img
+              class="rounded mx-auto d-block"
+              src="https://getmatcha.com/wp-content/uploads/2020/08/superfeet.png"
+              alt=""
+            />
+          </div>
+          <div class="col-sm" style="padding-top: 15px">
+            <img
+              class="rounded mx-auto d-block"
+              src="https://getmatcha.com/wp-content/uploads/2020/08/spirithoods.png"
+              alt=""
+            />
+          </div>
+          <div class="col-sm">
+            <img
+              class="rounded mx-auto d-block"
+              src="https://getmatcha.com/wp-content/uploads/2020/08/seatosummit.png"
+              alt=""
+            />
+          </div>
+          <div class="col-sm">
+            <img
+              class="rounded mx-auto d-block"
+              src="https://getmatcha.com/wp-content/uploads/2020/08/osprey.png"
+              alt=""
+            />
+          </div>
+          <div class="col-sm">
+            <img
+              class="rounded mx-auto d-block"
+              src="https://getmatcha.com/wp-content/uploads/2020/08/oars.png"
+              alt=""
+            />
+          </div>
+          <div class="col-sm" style="padding-top: 15px">
+            <img
+              class="rounded mx-auto d-block"
+              src="https://getmatcha.com/wp-content/uploads/2020/08/everly.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
 
-      <section>
-        <div class="container" style="border: 1px solid black; text-align: center;" >
-            <div class="row" style="border: 1px solid black;">
-              <div class="col-sm">
-                <p id="text-img">TRUSTED BY GROWING ECOMMERCE BRANDS</p>
+    <section class="sec-card3">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h1 class="text-center" style="color: #025157; font-size: 45px">
+              Top Features
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <p>
+              Your blog is your most powerful asset to build, engage, and retain
+              a loyal audience.
+            </p>
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <div class="div-img hidden">
+            <img
+              class="card-img-top img"
+              src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png"
+              alt="Foto1"
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="">Create content that converts.</a>
+            </h5>
+            <p class="card-text">
+              Write and format blog posts within Matcha or update existing posts
+              with Matcha’s lead and sale conversion tools. Optimize for SEO,
+              then schedule or publish immediately to your blog.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="div-img hidden">
+            <img
+              class="card-img-top img"
+              src="https://getmatcha.com/wp-content/uploads/2020/08/Group-381.png"
+              alt="Foto2"
+            />
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href=""> Embed your products and collections.</a>
+            </h5>
+            <p class="card-text">
+              Turn your readers into customers by embedding Shopify products and
+              product collections into or beneath your blog posts with “View
+              Product” or “Add to Cart” CTAs.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="div-img hidden">
+            <img
+              class="card-img-top img"
+              src="https://getmatcha.com/wp-content/uploads/2020/08/Group-406-1.png"
+              alt="Foto3"
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="">Analyze full-funnel content insights.</a>
+            </h5>
+            <p class="card-text">
+              Make data-driven decisions for your content strategy with in-depth
+              analytics, from traffic, engagement, and read time to influenced
+              email subscribers and revenue.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
+
+    <section class="sec-card4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h1
+              class="text-center"
+              style="color: #025157; font-size: 35px; margin-bottom: 50px"
+            >
+              Tools to help you publish more and convert readers.
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png"
+            class="rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Grow your email list with locked content.
+            </h5>
+            <p class="card-text">
+              Turn readers into subscribers with customizable forms. Create
+              content exclusive to your brand's <br />
+              community.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
+            class="rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Segment subscribers by their content interests.
+            </h5>
+            <p class="card-text">
+              Instantly export rich subscriber data to Mailchimp or Klaviyo for
+              targeted email campaigns.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png"
+            class="rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Schedule content to social and preview content in email.
+            </h5>
+            <p class="card-text">
+              Schedule posts to your Facebook Page, and easily embed beautiful
+              content previews into your Mailchimp or Klaviyo email campaigns.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png"
+            class="rounded mx-auto d-block"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Increase publishing frequency with licensed content.
+            </h5>
+            <p class="card-text"></p>
+            <p>
+              Explore a library of 12,000+ SEO-friendly articles. Customize to
+              your brand, add conversion tools, and publish instantly to your
+              blog.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
+
+    <section class="carousel-card">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <!--Carousel Wrapper-->
+            <div
+              id="multi-item-example"
+              class="carousel slide carousel-multi-item"
+              data-ride="carousel"
+            >
+              <!--Controls-->
+              <div class="controls-top">
+                <a
+                  class="btn-floating"
+                  href="#multi-item-example"
+                  data-slide="prev"
+                  ><i class="fas fa-chevron-left"></i
+                ></a>
+                <a
+                  class="btn-floating"
+                  href="#multi-item-example"
+                  data-slide="next"
+                  ><i class="fas fa-chevron-right"></i
+                ></a>
               </div>
+              <!--/.Controls-->
+
+              <!--Indicators-->
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#multi-item-example"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#multi-item-example" data-slide-to="1"></li>
+                <li data-target="#multi-item-example" data-slide-to="2"></li>
+              </ol>
+              <!--/.Indicators-->
+
+              <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div class="carousel-item active">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="data:image/jpeg;base64,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"
+                      alt="Card image cap"
+                      style="width: 450px"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title" style="color: #025157">
+                        Oarls + Alps
+                      </h4>
+                      <p
+                        class="card-text"
+                        style="text-align: left; font-size: 25px"
+                      >
+                        How oarls + alps tracks engagement and connects blog
+                        content to commerce
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-success btn-lg btn-block"
+                      >
+                        See case study
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="data:image/jpeg;base64,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"
+                      alt="Card image cap"
+                      style="width: 450px"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title" style="color: #025157">Everly</h4>
+                      <p
+                        class="card-text"
+                        style="text-align: left; font-size: 25px"
+                      >
+                        Early-stage CPG brand increases lead conversion 20x,
+                        ecommerce revenue 20%
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-success btn-lg btn-block"
+                      >
+                        See case study
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--/.Second slide-->
+
+                <!--Third slide-->
+                <div class="carousel-item">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="https://p4.wallpaperbetter.com/wallpaper/31/764/961/brunettes-women-models-glasses-rosalin-e-girls-with-glasses-people-glasses-hd-art-wallpaper-preview.jpg"
+                      alt="Card image cap"
+                      style="width: 450px"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title" style="color: #025157">
+                        Sea to Summit
+                      </h4>
+                      <p
+                        class="card-text"
+                        style="text-align: left; font-size: 25px"
+                      >
+                        Sea to summit ecommerce site traffic climbs 189% new
+                        suscribers 820%
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-success btn-lg btn-block"
+                      >
+                        See case study
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--/.Third slide-->
+              </div>
+              <!--/.Slides-->
             </div>
-            <div class="row" >
-              <div class="col-sm" style="border: 1px solid black; padding-top: 15px;">
-                <img
-                
-                class="rounded mx-auto d-block"
-                src="https://getmatcha.com/wp-content/uploads/2020/08/superfeet.png"
-                alt=""
-              />
-              </div>
-              <div class="col-sm" style="border: 1px solid black; padding-top: 15px">
-                <img class="rounded mx-auto d-block"
-            src="https://getmatcha.com/wp-content/uploads/2020/08/spirithoods.png"
-            alt=""
-          />
-              </div>
-              <div class="col-sm" style="border: 1px solid black;">
-                <img class="rounded mx-auto d-block"
-            src="https://getmatcha.com/wp-content/uploads/2020/08/seatosummit.png"
-            alt=""
-          />
-              </div>
-              <div class="col-sm " style="border: 1px solid black;">
-                <img class="rounded mx-auto d-block"
-                src="https://getmatcha.com/wp-content/uploads/2020/08/osprey.png"
-                alt=""
-              />
-              </div>
-              <div class="col-sm " style="border: 1px solid black;">
-                <img class="rounded mx-auto d-block"
-            src="https://getmatcha.com/wp-content/uploads/2020/08/oars.png"
-            alt=""
-          />
-              </div>
-              <div class="col-sm" style="border: 1px solid black; padding-top: 15px">
-                <img class="rounded mx-auto d-block"
-                src="https://getmatcha.com/wp-content/uploads/2020/08/everly.png"
-                alt=""
-              />
-              </div>
+            <!--/.Carousel Wrapper-->
+          </div>
+
+          <div class="col-lg-6 col-lg-8">
+            <div class="text-h1-p">
+              <h1>
+                Growing ecommerce brands rely <br />
+                on Matcha.
+              </h1>
+              <p>
+                Growing direct-to-consumer brands blog because they know the
+                power of content for growing sustainably and building a loyal
+                audience.<br />
+
+                <br />Brands that see consistent success with their blogging
+                efforts use Matcha because no other blogging tool was built with
+                all of the goals of ecommerce in mind.<br />
+
+                <br />Join hundreds of ecommerce marketers and
+                direct-to-consumer brands who rely on Matcha for blog post
+                creation and optimization, reader conversion tools, and in-depth
+                content analytics that empower their businesses to grow their
+                traffic, engagement, email list, and sales with a blog.
+              </p>
             </div>
           </div>
-          <br>
-<br>
-<br>
-        </section>
+        </div>
+      </div>
 
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
 
- <section class="Top">
-    <br>
+    <section style="margin-left: 20px; margin-right: 20px">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/img1.jpeg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/img2.jpeg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/img3.jpeg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/img4.jpeg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
 
-        <h2 class="titulo-principal display-2">Top features</h2>
-        <p class="texto-principal">Your blog is your most powerful asset to build, engage, and retain a loyal audience.</p>
-       
+    <section style="margin-left: 20px; margin-right: 20px">
+      <div class="container-fluid">
+        <div
+          class="footer-box"
+          style="background-color: #025157; border-radius: 10px"
+        >
+          <div class="footer_box_col-1">
+            <h1 style="color: white; font-size: 30px">
+              Get started for free.<br />
+              Just $9/m to blog better.
+            </h1>
+            <p style="color: white">
+              Want to learn more?
+              <a href="" style="color: #67b54b">Schedule a demo →</a>
+            </p>
+          </div>
 
+          <div class="footer_box_col-2">
+            <button
+              type="button"
+              class="btn btn-success"
+              data-toggle="modal"
+              data-target="#staticBackdrop"
+            >
+              Get started free →
+            </button>
 
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-backdrop="static"
+              data-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Sorry!</h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Por el momento seguimos trabajando en esta parte. Pronto
+                    estara completo. Gracias. :)
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Cerrar
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Entendido
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <div class="container">
+            <p class="card-text" style="padding-top: 20px">
+              <small class="text-muted" style="color: white"
+                >Create a better blog today with a free 7-day trial. <br />
+                No credit card required.</small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
+
+    <footer class="final" style="margin-left: 20px; margin-right: 20px">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <article class="suscribirse">
+              <form>
+                <h6 style="padding-bottom: 20px">SUBSCRIBE</h6>
+                <p>
+                  Get the latest tips and trends for ecommerce marketing with
+                  the <br />
+                  weekly Morning Matcha.
+                </p>
+                <div class="suscribirse-button">
+                  <input type="text" placeholder="Enter address" />
+                  <button>Subscribe →</button>
+                </div>
+              </form>
+            </article>
+          </div>
+
+          <div class="col-sm">
             <div class="row">
               <div class="col-sm">
-                <div class="carta-uno">
-                    <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" width="100%" alt="top">
-                    <h3 class="create"> Create content that converts. </h1>
-                    <p class="write"> Write and format blog posts within Matcha or update existing posts with Matcha’s lead and sale conversion tools. Optimize for SEO, then schedule or publish immediately to your blog. </p>
+                <h6>PRODUCTS</h6>
+
+                <div class="p1">
+                  <ul>
+                    <li>
+                      <a href=""> Blog creator</a>
+                    </li>
+                    <li>
+                      <a href=""> Content Library </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div class="col-sm">
-                <div class="carta-dos">
-                <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-381.png" width="100%" alt="moto">
-                <h3 class="embed"> Embed your products and collections. </h1>
-                <p class="turn"> Turn your readers into customers by embedding Shopify products and product collections into or beneath your blog posts with “View Product” or “Add to Cart” CTAs. </p>
-            </div>
+                <h6>MATCHA</h6>
+                <div>
+                  <ul>
+                    <li>
+                      <a href="">About</a>
+                    </li>
+                    <li>
+                      <a href="">Story</a>
+                    </li>
+                    <li>
+                      <a href="">Team</a>
+                    </li>
+                    <li>
+                      <a href="">Careers</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div class="col-sm">
-                 <div class="carta-tres">
-                <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-406-1.png" width="100%" alt="money">
-                <h3 class="analyze"> Analyze full-funnel content insights. </h1>
-                <p class="make"> Make data-driven decisions for your content strategy with in-depth analytics, from traffic, engagement, and read time to influenced email subscribers and revenue. </p>
-            </div>
+                <h6>RESOURCES</h6>
+                <div>
+                  <ul style="list-style: none">
+                    <li style="list-style: none">
+                      <a href="">Privacy</a>
+                    </li>
+                    <li>
+                      <a href="">Terms</a>
+                    </li>
+                    <li>
+                      <a href="">Support</a>
+                    </li>
+                    <li>
+                      <a href="">Contact</a>
+                    </li>
+                    <li>
+                      <a href="">Refrral Program</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-    
-
-    </section> 
-
-
-<!-- 
-    <section class="item-2">
-      <article class="main">
-        <h1>
-          Let’s face it.<br />
-          Your blog stinks.
-        </h1>
-        <p>
-          <span
-            >Blog better with the first all-in-one blogging tool for growing
-            ecommerce <br />
-            brands. Connect your blog, create and optimize blog posts for each
-            <br />
-            stage of the buyer’s journey, and measure the results.</span
-          >
-        </p>
-        <div class="button-main">
-          <button>Star free trial</button>
-          <img
-            src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/shopify-stars.svg"
-            alt="Shopify"
-          />
-        </div>
-        <div class="text">
-          <p>
-            Blog better today with a <strong>free 7-day trial.</strong><br />
-            <strong>No credit card</strong> required.
-          </p>
-        </div>
-      </article>
-
-      <article class="video">
-        <video
-          controls
-          poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
-        >
-          <source
-            type="video/webm"
-            src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
-          />
-          <source
-            type="video/mp4"
-            src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-          />
-        </video>
-        <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
-          alt="See how it works"
-        />
-      </article>
-    </section>
-
-    <section class="item-3">
-      <p>TRUSTED BY GROWING ECOMMERCE BRANDS</p>
-      <div class="img-3">
-        <img
-          src="https://getmatcha.com/wp-content/uploads/2020/08/superfeet.png"
-          alt=""
-        />
-        <img
-          src="https://getmatcha.com/wp-content/uploads/2020/08/spirithoods.png"
-          alt=""
-        />
-        <img
-          src="https://getmatcha.com/wp-content/uploads/2020/08/seatosummit.png"
-          alt=""
-        />
-        <img
-          src="https://getmatcha.com/wp-content/uploads/2020/08/osprey.png"
-          alt=""
-        />
-        <img
-          src="https://getmatcha.com/wp-content/uploads/2020/08/oars.png"
-          alt=""
-        />
-        <img
-          src="https://getmatcha.com/wp-content/uploads/2020/08/everly.png"
-          alt=""
-        />
-      </div>
-    </section>
-
-    <section class="item-4">
-      <h1>Top Features</h1>
-      <p>
-        Your blog is your most powerful asset to build, engage, and retain a
-        loyal audience.
-      </p>
-
-      <div class="conter-target">
-        <div class="target1">
-          <img
-            src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png"
-            alt=""
-          />
-          <h3><a href="#">Create content that converts.</a></h3>
-          <p>
-            Write and format blog posts within Matcha or update <br />
-            existing posts with Matcha’s lead and sale <br />
-            conversion tools. Optimize for SEO, then schedule <br />
-            or publish immediately to your blog.
-          </p>
-        </div>
-
-        <div class="target2">
-          <img
-            src="https://getmatcha.com/wp-content/uploads/2020/08/Group-381.png"
-            alt=""
-          />
-          <h3><a href="#">Embed your products and collections.</a></h3>
-          <p>
-            Turn your readers into customers by embedding <br />
-            Shopify products and product collections into or <br />
-            beneath your blog posts with “View Product” or “Add <br />
-            to Cart” CTAs.
-          </p>
-        </div>
-
-        <div class="target3">
-          <img
-            src="https://getmatcha.com/wp-content/uploads/2020/08/Group-406-1.png"
-            alt=""
-          />
-          <h3><a href="#">Analyze full-funnel content insights.</a></h3>
-          <p>
-            Make data-driven decisions for your content <br />
-            strategy with in-depth analytics, from traffic, <br />
-            engagement, and read time to influenced email<br />
-            subscribers and revenue.
-          </p>
         </div>
       </div>
-    </section>
-
-    <section class="item-6">
-      <article>
-        <img src="img/img1.jpeg" alt="" />
-      </article>
-
-      <article>
-        <img src="img/img2.jpeg" alt="" />
-      </article>
-
-      <article>
-        <img src="img/img3.jpeg" alt="" />
-      </article>
-
-      <article>
-        <img src="img/img4.jpeg" alt="" />
-      </article>
-    </section>
-
-    <footer class="item-11">
-      <article class="suscribirse">
-        <form>
-          <h3>SUBSCRIBE</h3>
-          <p>
-            Get the latest tips and trends for ecommerce marketing with the
-            <br />
-            weekly Morning Matcha.
-          </p>
-          <div class="suscribirse-button">
-            <input type="text" placeholder="Enter address" />
-            <button>Subscribe -></button>
-          </div>
-        </form>
-      </article>
-
-      <article class="informacion">
-        <div class="products1">
-          <h3>PRODUCTS</h3>
-          <div>
-            <p><a href="">Blog Creator</a></p>
-            <p><a href="">Content Library</a></p>
-          </div>
-        </div>
-
-        <div class="matcha1">
-          <h3>MATCHA</h3>
-          <div>
-            <p><a href="">About</a></p>
-            <p><a href="">Story</a></p>
-            <p><a href="">Team</a></p>
-            <p><a href="">Careers</a></p>
-          </div>
-        </div>
-
-        <div class="resources1">
-          <h3>RESOURCES</h3>
-          <div>
-            <p><a href="">Privacy</a></p>
-            <p><a href="">Terms</a></p>
-            <p><a href="">Support</a></p>
-            <p><a href="">Contact</a></p>
-            <p><a href="">Referral Program</a></p>
-          </div>
-        </div>
-      </article>
-    </footer> -->
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
